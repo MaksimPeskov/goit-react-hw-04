@@ -1,0 +1,23 @@
+.error {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+  color: #842029;
+  background-color: #f8d7da;
+  border: 2px solid #f5c2c7;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error::before {
+  content: "⚠️";
+  margin-right: 12px;
+  font-size: 24px;
+}
